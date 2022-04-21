@@ -189,7 +189,7 @@ header {
 .heading {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     margin: 50px auto;
     align-items: center;
     text-align: center;
@@ -236,7 +236,7 @@ header {
 }
 
 .newsletter-form input {
-    width: 350px;
+    width: 300px;
     padding: 10px 15px;
 }
 
