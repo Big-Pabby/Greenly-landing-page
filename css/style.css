@@ -148,12 +148,10 @@ header {
 .showcase-image {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .showcase-image .card {
-    width: 350px;
-    margin: 0 auto;
     height: auto;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
@@ -409,9 +407,22 @@ footer {
 }
 @media (max-width: 500px) {
 
+    .logo h2{
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 25px;
+    }
+
     .hero .flex {
         flex-direction: column-reverse;
         margin-bottom: 10px;
+    }
+
+    .nav-bar .btn {
+        padding: 5px 20px;
+        font-size: 14px;
     }
 
     .hero-content {
